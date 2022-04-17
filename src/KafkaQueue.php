@@ -12,6 +12,7 @@ class KafkaQueue extends Queue implements QueueContract
 
     /**
      * @param $consumer
+     * @param $producer
      */
     public function __construct($producer, $consumer)
     {
